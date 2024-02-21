@@ -1,0 +1,78 @@
+<section class="section section-rents" id="section-rents">
+  <div class="container rent-container">
+    <div class="rent-title-form">
+      <h2 class="title rents-title">Rent a yacht now</h2>
+      <form class="rent-form">
+        <div class="rent-form-inputs">
+          <input
+            class="rent-input"
+            type="text"
+            name="user-name"
+            pattern="[A-Za-z]{3,}\s[A-Za-z]{3,}"
+            title="Full name consists of 2 words containing at least 3 characters."
+            placeholder="Full Name"
+          />
+          <input
+            class="rent-input"
+            type="email"
+            name="user-email"
+            placeholder="Email"
+            pattern="[A-Za-z]{@}[A-Za-z]"
+            title="Email contains only Latin letters and @"
+          />
+          <input
+            class="rent-input"
+            type="tel"
+            name="user-tel"
+            placeholder="Phone number"
+            pattern="[0-9]{3}"
+            title="Mobile phone number consists of 10 digits"
+          />
+          <textarea
+            class="rent-form-comment"
+            name="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </div>
+        <button class="rent-btn" type="submit">Send</button>
+      </form>
+    </div>
+    <picture>
+      <source
+        srcset="
+          ./img/rent-section-img/rent-yacht-section-descktop1440-1x.png 1x,
+          ./img/rent-section-img/rent-yacht-section-descktop1440-2x.png 2x
+        "
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="
+          ./img/rent-section-img/rent-yacht-section-descktop1280-1x.png 1x,
+          ./img/rent-section-img/rent-yacht-section-descktop1280-2x.png 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/rent-section-img/rent-yacht-section-tablet-1x.png 1x,
+          ./img/rent-section-img/rent-yacht-section-tablet-2x.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/rent-section-img/rent-yacht-section-mob-1x.png 1x,
+          ./img/rent-section-img/rent-yacht-section-mob-2x.png 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        src="./img/rent-section-img/rent-yacht-section-descktop1440-1x.png"
+        alt="Rent a yacht"
+        class="rent-img"
+        width="768"
+        height="536"
+      />
+    </picture>
+  </div>
+</section>

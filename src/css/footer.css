@@ -1,0 +1,237 @@
+:root {
+  --font-family: 'Inter', sans-serif;
+}
+.footer {
+  padding-top: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.footer-container {
+  max-width: 355px;
+  border-radius: 24px 24px 0 0;
+  background: #1b414b;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+.footer-navigation {
+  display: flex;
+}
+
+@media only screen and (max-width: 280px) {
+  .footer-navigation {
+    flex-wrap: wrap;
+  }
+  .footer-list-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-list-social {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 1px) and (max-width: 374px) {
+  .footer-navigation {
+    justify-content: space-around;
+  }
+  .footer-link-logo {
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .footer-link-logo {
+    margin-right: 37px;
+    padding-left: 30px;
+  }
+  /* .footer-item-menu {
+    max-width: 66px;
+    max-height: 40px;
+  } */
+}
+.footer-link-logo {
+  display: block;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #fbfbfb;
+}
+
+.footer-list-menu {
+  display: inline-flex;
+  list-style: none;
+  gap: 4px;
+  margin-bottom: 80px;
+  /* padding-right: 30px; */
+}
+
+.footer-item-logo-link {
+  padding-right: 33px;
+}
+
+.footer-item-menu {
+  font-family: var(--font-family);
+  display: flex;
+  font-size: 9px;
+  line-height: 1.27;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+  border-radius: 8px;
+  width: 66px;
+  height: 40px;
+  background: rgba(251, 251, 251, 0.3);
+  justify-content: center;
+  align-items: center;
+}
+.footer-item-menu:hover,
+.footer-item-menu:focus {
+  color: #1b414b;
+  background: #fbfbfb;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-link-menu {
+  text-decoration: none;
+}
+
+.footer-list-social {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer-item-social {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-svg-social {
+  fill: #ffffff;
+}
+.footer-svg-social:hover,
+.footer-svg-social:focus {
+  fill: rgba(251, 251, 251, 0.8);
+}
+
+.footer-slogan-privacy-container {
+  padding-bottom: 13px;
+}
+
+.footer-slogan-p {
+  font-family: var(--font-family);
+  max-width: 279px;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin: auto;
+  margin-bottom: 89px;
+}
+
+.footer-privacy-police {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.4);
+}
+
+.footer-span-privacy {
+  padding-left: 20px;
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px) {
+  .footer-span-privacy {
+    padding-left: 32px;
+  }
+  .footer-privacy-police {
+    font-size: 14px;
+    line-height: 1.18;
+  }
+  .footer-slogan-p {
+    max-width: 640px;
+    font-size: 32px;
+    margin-bottom: 99px;
+  }
+  .footer-list-social {
+    padding-right: 48px;
+    align-items: start;
+  }
+  .footer-item-menu {
+    width: 91px;
+  }
+  .footer-item-logo-link {
+    padding-right: 106px;
+  }
+  .footer-list-menu {
+    margin-right: 91px;
+    margin-bottom: 96px;
+  }
+  .footer-link-logo {
+    font-size: 20px;
+    margin-right: 110px;
+    padding-left: 48px;
+  }
+  .footer-lists-container {
+    display: flex;
+  }
+  .footer-container {
+    max-width: 736px;
+    padding-top: 50px;
+  }
+  .footer {
+    padding-top: 75px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+/* Desktop 1280px */
+@media only screen and (min-width: 1280px) {
+  .footer-list-social {
+    padding-right: 75px;
+  }
+  .footer-slogan-p {
+    max-width: 693px;
+  }
+  .footer-list-menu {
+    /* padding-right: 91px; */
+    margin-right: 311px;
+  }
+  .footer-link-logo {
+    padding-left: 75px;
+    margin-right: 330px;
+  }
+  .footer-lists-container {
+    justify-content: space-between;
+  }
+  .footer-container {
+    max-width: 1230px;
+  }
+}
+/* Desktop 1440px */
+@media screen and (min-width: 1440px) {
+  .footer-container {
+    max-width: 1390px;
+  }
+  .footer-slogan-p {
+    max-width: 693px;
+  }
+  .footer-navigation {
+    margin-inline: 0;
+  }
+  .footer-link-logo {
+    margin-right: 409px;
+  }
+  .footer {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}

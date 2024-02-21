@@ -1,0 +1,223 @@
+.section-advantages {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.avantages-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+   
+}
+
+.visully-hidden-advantages {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.avantages-list {
+ max-width: 335px; 
+list-style-type: none;
+background-color: #1B414B;
+border-radius: 18px;
+margin-top: 0;
+    margin-bottom: 20px;
+/* padding-top: 80px;
+padding-bottom: 80px; */
+padding: 80px 20px 80px 20px;
+
+}
+.avantages-list> :not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.rounded-rectangle {
+    background-color: #FBFBFB;
+    background-color: rgba(251, 251, 251, 0.1);
+    max-width: 250px;
+    height: 2px;
+    border-radius: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* .avantages-item {
+    margin-bottom: 40px;
+} */
+.avantages-subtitle {
+font-style: Inter;
+font-weight: 500;
+font-size: 28px;
+line-height: 1;
+letter-spacing: -0.05;
+
+
+
+
+}
+.avantages-text {
+color: #FBFBFB;;
+font-style: Inter;
+font-weight: 400;
+font-size: 12px;
+line-height: 117%;
+letter-spacing: -0.02;
+max-width: 250px;
+overflow-wrap: break-word;
+
+}
+.advantages-image {
+height: 424px;
+
+}
+.avantages-list,
+.advantages-image img {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .section-advantages {
+            padding-top: 75px;
+            padding-bottom: 75px;
+            
+        }
+    .avantages-container {
+        min-width: 734px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 32px;
+        padding-right: 32px;
+       }
+     .avantages-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        max-width: 704px;
+        
+        padding: 90px 32px 90px 32px;
+        margin-bottom: 32px;
+        
+    }
+       .avantages-item {
+        width: 304px; 
+        height: 85px;
+     }
+        .rounded-rectangle {
+        max-width: 304px;
+        }
+
+        .advantages-image {
+             flex: 1;
+             width: 100%;
+             background-size: cover;
+             background-position: center;
+             height: 424px;
+             width: 704px;
+         }
+
+         .avantages-subtitle {
+         font-size: 32px;
+         line-height: 32px;
+         letter-spacing: -0.05;
+         }
+                 .avantages-text {
+                     font-size: 13px;
+                     line-height: 1.15;
+                    overflow-wrap: break-word;
+                 }
+         
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .avantages-container {
+        align-items: center;
+        min-width: 1180px;
+        max-width: 1280px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+          
+      }
+          .avantages-list .avantages-item {
+              /* overflow: hidden; */
+              margin-bottom: 0;
+          }
+          
+           
+    .avantages-list {
+            
+                flex-direction: row;
+                flex-wrap: wrap;
+                max-width: 717px;
+                min-height: 424px;
+                gap: 40px 30px;
+                padding: 90px 50px 90px 50px;
+                margin-bottom: 0;
+            }
+
+        .rounded-rectangle {
+                min-width: 280px;
+            }
+        
+        .advantages-image {
+
+            min-height: 424px;
+            width: 432px;
+            object-fit: cover;
+            flex-shrink: 0;
+               }
+            .avantages-text {
+                max-width: 292px;
+                max-height: 60px;
+            overflow-wrap: break-word;
+            }
+            .avantages-item {
+                max-height: 85px;
+            }
+    
+     }
+
+         @media screen and (min-width: 1440px) {
+            .avantages-container {
+                max-width: 1380px;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+            .avantages-list {
+                padding-right: 16px;
+                
+            }
+            .advantages-image {
+                min-width: 540px;
+            }
+            
+         }
+
+
+        
+
+
+
+         

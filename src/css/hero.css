@@ -1,0 +1,189 @@
+.section-hero {
+   padding-top: 260px;
+   padding-bottom: 302px;
+   padding-left: 20px;
+   padding-right: 20px;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   background-image: linear-gradient(
+       rgba(17, 19, 31, 0.8),
+       rgba(17, 19, 31, 0.31),
+       rgba(17, 19, 31, 0)
+     ),
+     url(../img/hero/hero-yacht-mobile@1x.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ }
+ 
+ @media (min-device-pixel-ratio: 2),
+   (-webkit-min-device-pixel-ratio: 2),
+   (min-resolution: 192dpi),
+   (min-resolution: 2dppx) {
+   .section-hero {
+     background-image: linear-gradient(
+         rgba(17, 19, 31, 0.8),
+         rgba(17, 19, 31, 0.31),
+         rgba(17, 19, 31, 0)
+       ),
+       url(../img/hero/hero-yacht-mobile@2x.jpg);
+   }
+ }
+ 
+ .hero-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .hero-main-title {
+   margin-bottom: 24px;
+   font-family: 'Inter', sans-serif;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 1;
+   letter-spacing: -0.02em;
+   text-align: center;
+   color: #fbfbfb;
+ }
+ .hero-par {
+   font-family: 'Inter', sans-serif;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 1.16667;
+   text-align: center;
+   color: rgba(251, 251, 251, 0.7);
+   margin-bottom: 38px;
+ }
+ .hero-btn {
+   border-radius: 15px;
+   padding: 14px 32px;
+   width: 141px;
+   height: 46px;
+   background: #1b414b;
+   border-style: none;
+   font-family: 'Inter', sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.28571;
+   letter-spacing: -0.02em;
+   color: #fbfbfb;
+ }
+ 
+ .hero-btn:hover,
+ .hero-btn:focus {
+   background: #fbfbfb;
+   color: #1b414b;
+ }
+
+ @media screen and (min-width: 768px) {
+   .section-hero {
+     padding-top: 280px;
+     padding-bottom: 282px;
+     padding-left: 32px;
+     padding-right: 32px;
+     background-image: linear-gradient(
+         rgba(17, 19, 31, 0.8),
+         rgba(17, 19, 31, 0.31),
+         rgba(17, 19, 31, 0)
+       ),
+       url(../img/hero/hero-yacht-tablet@1x.jpg);
+   }
+ 
+   @media (min-device-pixel-ratio: 2),
+     (-webkit-min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+     .section-hero {
+       background-image: linear-gradient(
+           rgba(17, 19, 31, 0.8),
+           rgba(17, 19, 31, 0.31),
+           rgba(17, 19, 31, 0)
+         ),
+         url(../img/hero/hero-yacht-tablet@2x.jpg);
+     }
+   }
+ 
+   .hero-main-title {
+     font-size: 70px;
+   }
+   .hero-par {
+     font-size: 16px;
+     line-height: 1.4;
+     margin-bottom: 48px;
+     padding-left: 54px;
+     padding-right: 54px;
+   }
+ 
+   .hero-btn {
+     padding: 16px 40px;
+     width: 179px;
+     height: 52px;
+     font-size: 18px;
+     line-height: 1.1;
+   }
+ }
+
+ @media screen and (min-width: 1280px) {
+   .section-hero {
+     padding-top: 235px;
+     padding-bottom: 215px;
+     padding-left: 140px;
+     padding-right: 140px;
+     background-image: linear-gradient(
+         rgba(17, 19, 31, 0.8),
+         rgba(17, 19, 31, 0.31),
+         rgba(17, 19, 31, 0)
+       ),
+       url(../img/hero/hero-yacht-desktop1280@1x.jpg);
+   }
+ 
+   @media (min-device-pixel-ratio: 2),
+     (-webkit-min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+     .section-hero {
+       background-image: linear-gradient(
+           rgba(17, 19, 31, 0.8),
+           rgba(17, 19, 31, 0.31),
+           rgba(17, 19, 31, 0)
+         ),
+         url(../img/hero/hero-yacht-desktop1280@2x.jpg);
+     }
+   }
+ 
+   .hero-main-title {
+     font-size: 80px;
+   }
+   .hero-par {
+     padding-left: 202px;
+     padding-right: 202px;
+   }
+ }
+ 
+ @media screen and (min-width: 1440px) {
+   .section-hero {
+     padding-left: 220px;
+     padding-right: 220px;
+     background-image: linear-gradient(
+         rgba(17, 19, 31, 0.8),
+         rgba(17, 19, 31, 0.31),
+         rgba(17, 19, 31, 0)
+       ),
+       url(../img/hero/hero-yacht-desktop1440@1x.jpg);
+   }
+   @media (min-device-pixel-ratio: 2),
+     (-webkit-min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+     .section-hero {
+       background-image: linear-gradient(
+           rgba(17, 19, 31, 0.8),
+           rgba(17, 19, 31, 0.31),
+           rgba(17, 19, 31, 0)
+         ),
+         url(../img/hero/hero-yacht-desktop1440@2x.jpg);
+     }
+   }
+ }
