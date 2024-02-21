@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/sail-code-studio/",
+    "build": "vite build --base=/rent-a-yacht/",
     "preview": "vite preview"
   },
   "devDependencies": {
