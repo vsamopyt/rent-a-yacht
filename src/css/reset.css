@@ -32,8 +32,8 @@ img {
 
 .container {
   width: 100%;
-  max-width: 365px;
-  padding-inline: 15px;
+  max-width: 375px;
+  padding-inline: 20px;
   margin-inline: auto;
 }
 
