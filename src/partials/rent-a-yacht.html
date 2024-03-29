@@ -8,14 +8,17 @@
             class="rent-input"
             type="text"
             name="user-name"
+            required
             pattern="[A-Za-z]{3,}\s[A-Za-z]{3,}"
-            title="Full name consists of 2 words containing at least 3 characters."
+            title="Full name consists of 2 words containing at least 3 characters and no numbers"
             placeholder="Full Name"
+           
           />
           <input
             class="rent-input"
             type="email"
             name="user-email"
+            required
             placeholder="Email"
             pattern="[A-Za-z]{@}[A-Za-z]"
             title="Email contains only Latin letters and @"
@@ -24,9 +27,10 @@
             class="rent-input"
             type="tel"
             name="user-tel"
+            required
             placeholder="Phone number"
-            pattern="[0-9]{3}"
-            title="Mobile phone number consists of 10 digits"
+            pattern="[0-9]{12}"
+            title="Mobile phone number consists of 12 digits"
           />
           <textarea
             class="rent-form-comment"
