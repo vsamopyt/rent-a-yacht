@@ -25,6 +25,10 @@ export default function setSwiperYachts() {
 
     modules: [Navigation],
 
+    // pagination: {
+    //   el: ".swiper-pagination",
+    // },
+
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
