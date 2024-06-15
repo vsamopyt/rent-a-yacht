@@ -79,6 +79,11 @@
   margin-bottom: 40px;
   
 }
+
+.swiper {
+  margin-bottom: 40px;
+
+}
   .yachts-item-yacht {
     padding: 16px 16px 32px 16px;
     background-color: #FBFBFB;
@@ -146,8 +151,18 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+div.swiper-button-prev {
+  color: white;
+  background-color:#1b414b63;
+border-radius: 8px;
+} 
 
-
+div.swiper-button-next {
+  color: white;
+  /* background-color:#1b414b; */
+  background-color:#1b414b63;
+  border-radius: 8px;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -211,6 +226,11 @@
   display: flex;
   gap: 32px;
   margin-bottom: 50px;
+}
+
+.swiper {
+  margin-bottom: 50px;
+  
 }
 
 .yahts-btn-link {
