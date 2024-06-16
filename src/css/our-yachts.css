@@ -73,6 +73,10 @@
   
 }
 
+/* .yahts-list-values li:last-of-child {
+  color: red;
+} */
+
 /*positioning */
 
 .list-yachts {
@@ -125,6 +129,9 @@
   margin-bottom: 6px;
 }
 
+.yahts-list-values>li:last-child p {
+  padding-top: 1px;
+}
 
 
 .yahts-btn-link {
